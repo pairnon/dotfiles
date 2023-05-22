@@ -209,3 +209,6 @@ smart_gaps on
 
 # Enable touchpad while typing
 exec xinput set-prop 10 328 0
+
+# Suspend keybind
+bindsym $mod+Escape exec systemctl suspend
