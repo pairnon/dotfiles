@@ -187,6 +187,7 @@ mode "resize" {
 # finds out, if available)
 bar {
         status_command i3status
+	tray_output primary
 }
 
 exec autorandr --change
@@ -205,3 +206,6 @@ gaps inner 5
 gaps outer 5
 smart_gaps on
 # smart_borders on
+
+# Enable touchpad while typing
+exec xinput set-prop 10 328 0
