@@ -200,7 +200,7 @@ exec --no-startup-id setxkbmap -option compose:ralt
 
 bindsym --release Shift+Print exec scrot -u
 
-exec nitrogen --restore
+exec_always nitrogen --restore
 
 gaps inner 5
 gaps outer 5
