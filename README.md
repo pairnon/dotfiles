@@ -1,3 +1,3 @@
 # dotfiles
 ## Info
-Personal dotfiles
+Personal i3 dotfiles
