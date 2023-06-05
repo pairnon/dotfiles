@@ -30,10 +30,11 @@ ethernet _first_ {
         format_down = "E: down"
 }
 
-battery all {
-        format = "%status %percentage %remaining"
-	last_full_capacity = true
-}
+# Uncomment for laptops
+# battery all {
+#         format = "%status %percentage %remaining"
+# 	last_full_capacity = true
+# }
 
 disk "/" {
         format = "%avail"
