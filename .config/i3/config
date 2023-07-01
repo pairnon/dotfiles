@@ -211,7 +211,7 @@ smart_gaps on
 exec xinput set-prop 10 328 0
 
 # Suspend keybind
-bindsym $mod+Escape exec systemctl suspend
+bindsym $mod+Escape exec "i3lock -c 002966 && systemctl suspend"
 
 # Shutdown keybind
 bindsym $mod+Shift+Escape exec shutdown now
