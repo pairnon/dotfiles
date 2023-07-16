@@ -190,6 +190,7 @@ bar {
 	tray_output primary
 }
 
+# refresh multi-monitor config
 exec --no-startup-id autorandr --change
 exec_always --no-startup-id autorandr --change
 
@@ -205,6 +206,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 # for_window [title="Open File"] resize set 800 600
 # for_window [title="Open File"] move absolute position center
 
+# set accent mark compose key
 exec --no-startup-id setxkbmap -option compose:ralt
 
 # Screenshot keybinds
