@@ -193,6 +193,7 @@ bar {
 exec autorandr --change
 exec_always autorandr --change
 
+# screen brightness keys for laptops
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
@@ -202,8 +203,10 @@ exec --no-startup-id setxkbmap -option compose:ralt
 # bindsym --release Shift+Print exec scrot -u
 bindsym --release $mod+Shift+p exec scrot -u
 
+# background/wallpaper
 exec_always nitrogen --restore
 
+# tiling cosmetics
 gaps inner 5
 gaps outer 5
 smart_gaps on
