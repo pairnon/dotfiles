@@ -190,8 +190,8 @@ bar {
 	tray_output primary
 }
 
-exec autorandr --change
-exec_always autorandr --change
+exec --no-startup-id autorandr --change
+exec_always --no-startup-id autorandr --change
 
 # screen brightness keys for laptops
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
@@ -204,7 +204,7 @@ exec --no-startup-id setxkbmap -option compose:ralt
 bindsym --release $mod+Shift+p exec scrot -u
 
 # background/wallpaper
-exec_always nitrogen --restore
+exec_always --no-startup-id nitrogen --restore
 
 # tiling cosmetics
 gaps inner 5
