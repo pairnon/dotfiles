@@ -197,6 +197,10 @@ exec_always --no-startup-id autorandr --change
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
+# backlight control keys binding for macbooks: uncomment if needed
+# bindsym XF86KbdBrightnessUp exec --no-startup-id brightnessctl --device='smc::kbd_backlight' set +20%
+# bindsym XF86KbdBrightnessDown exec --no-startup-id brightnessctl --device='smc::kbd_backlight' set 20%-
+
 exec --no-startup-id setxkbmap -option compose:ralt
 
 # Screenshot keybinds
