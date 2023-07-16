@@ -201,6 +201,10 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 # bindsym XF86KbdBrightnessUp exec --no-startup-id brightnessctl --device='smc::kbd_backlight' set +20%
 # bindsym XF86KbdBrightnessDown exec --no-startup-id brightnessctl --device='smc::kbd_backlight' set 20%-
 
+# floating window resizing: uncomment for low-res screens
+# for_window [title="Open File"] resize set 800 600
+# for_window [title="Open File"] move absolute position center
+
 exec --no-startup-id setxkbmap -option compose:ralt
 
 # Screenshot keybinds
