@@ -233,3 +233,6 @@ bindsym $mod+Shift+Escape exec shutdown now
 
 # Browser keybind
 bindsym $mod+n exec librewolf
+
+# Define alt/opt key
+set $alt Mod1
