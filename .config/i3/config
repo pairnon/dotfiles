@@ -236,3 +236,6 @@ bindsym $mod+n exec librewolf
 
 # Define alt/opt key
 set $alt Mod1
+
+# Files GUI keybind macos style
+bindsym $alt+$mod+space exec thunar
