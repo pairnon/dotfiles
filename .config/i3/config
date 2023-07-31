@@ -226,7 +226,12 @@ smart_gaps on
 # exec xinput set-prop 10 328 0
 
 # Suspend keybind
-bindsym $mod+Escape exec "i3lock -c 002966 && systemctl suspend"
+# Uncomment if suspend works
+# bindsym $mod+Escape exec "i3lock -c 002966 && systemctl suspend"
+
+# Lock keybind
+# Uncomment if suspend is unavailable
+bindsym $mod+Escape exec "i3lock -c 002966"
 
 # Shutdown keybind
 bindsym $mod+Shift+Escape exec shutdown now
@@ -238,4 +243,5 @@ bindsym $mod+n exec librewolf
 set $alt Mod1
 
 # Files GUI keybind macos style
+# REQUIRES ABOVE DEF
 bindsym $alt+$mod+space exec thunar
