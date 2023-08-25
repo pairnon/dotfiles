@@ -231,6 +231,9 @@ smart_gaps on
 # Disable natural scrolling for bcm5974
 # exec xinput set-prop bcm5974 "libinput Natural Scrolling Enabled" 0
 
+# Enable touchpad while typing for bcm5974
+# exec xinput set-prop bcm5974 "libinput Disable While Typing Enabled" 0
+
 # Suspend keybind
 # Uncomment if suspend works
 # bindsym $mod+Escape exec "i3lock -c 002966 && systemctl suspend"
