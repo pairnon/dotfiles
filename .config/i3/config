@@ -222,8 +222,14 @@ gaps outer 5
 smart_gaps on
 # smart_borders on
 
-# Enable touchpad while typing; Uncomment if necessary
+# Enable touchpad while typing for id 10
 # exec xinput set-prop 10 328 0
+
+# Tap to click for bcm5974
+# exec xinput set-prop bcm5974 "libinput Tapping Enabled" 1
+
+# Disable natural scrolling for bcm5974
+# exec xinput set-prop bcm5974 "libinput Natural Scrolling Enabled" 0
 
 # Suspend keybind
 # Uncomment if suspend works
