@@ -38,7 +38,7 @@ ethernet _first_ {
 # }
 
 disk "/" {
-        format = "%avail"
+        format = "Disk %avail"
 }
 
 #load {
@@ -51,11 +51,11 @@ cpu_usage {
 }
 
 memory {
-        format = "%available"
+        format = "RAM %available"
         threshold_degraded = "1G"
         format_degraded = "MEMORY < %available"
 }
 
 tztime local {
-        format = "%Y-%m-%d %H:%M:%S"
+        format = "%Y-%m-%d | %H:%M:%S"
 }
