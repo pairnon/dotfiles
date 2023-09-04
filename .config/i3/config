@@ -242,8 +242,9 @@ bindsym $mod+Escape exec "i3lock -c 002966"
 # Shutdown keybind
 bindsym $mod+Shift+Escape exec shutdown now
 
-# Browser keybind
+# Browser keybinds
 bindsym $mod+n exec librewolf
+bindsym $mod+m exec chromium
 
 # Define alt/opt key
 set $alt Mod1
