@@ -1,3 +1,4 @@
 # dotfiles
 ## Info
-Personal i3 dotfiles
+My (old) i3 dotfiles
+_These may no longer be functioning as intended_
