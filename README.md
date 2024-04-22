@@ -1,5 +1,5 @@
 # dotfiles
 ## Info
-My (old) i3 dotfiles
+My dotfiles
 
-_These may no longer be functioning as intended_
+_Some may no longer function as intended_
