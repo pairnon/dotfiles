@@ -1,0 +1,15 @@
+[brave-browser.desktop][Global Shortcuts]
+_launch=
+new-private-window=Meta+N
+new-window=Meta+M
+
+[org.kde.dolphin.desktop][Global Shortcuts]
+_launch=Meta+Space
+
+[org.kde.konsole.desktop][Global Shortcuts]
+NewTab=
+NewWindow=
+_launch=Meta+Return
+
+[org.kde.plasma-systemmonitor.desktop][Global Shortcuts]
+_launch=Meta+Esc
