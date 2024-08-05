@@ -3,6 +3,12 @@ _launch=
 new-private-window=Meta+N
 new-window=Meta+M
 
+[firefox.desktop][Global Shortcuts]
+_launch=
+new-private-window=
+new-window=Meta+`
+profile-manager-window=
+
 [org.kde.dolphin.desktop][Global Shortcuts]
 _launch=Meta+Space
 
