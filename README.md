@@ -2,4 +2,4 @@
 ## Info
 My dotfiles
 
-_Some may no longer function as intended_
+_Note: i3 dotfiles are not longer maintained_
